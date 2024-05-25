@@ -65,3 +65,20 @@ h3 #maior-valor {
     padding: 10px;
     margin: 20px
 }
+
+@media (width <= 768px) {
+    .controle {
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    body {
+        font-size: .8em;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    h3 {
+        margin: 2em 0;
+    }
+}
